@@ -1,0 +1,13 @@
+{
+    "name":"libcvgl.dll",
+    "version":"3.0.0.C.0",
+    "module":[
+        {"name":"api","version":"0.0"},
+        {"name":"wrapper","version":"0.0"},
+        {"name":"core","version":"0.0"}
+        ],
+    "model":[
+        {"name":"cvgl","version":"0.0","type":"pb"}
+    ],
+    "info":"product"
+}

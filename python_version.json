@@ -1,0 +1,21 @@
+{
+    "name":"organs_reconstruction",
+    "version":"1.0.0",
+    "module":[
+        {"name":"LungOARs","version":"1.0.1"},
+        {"name":"LungNodule","version":"1.0.1"},
+        {"name":"Lungct","version":"1.0.0.C.0"}
+        ],
+    "model":[
+        {"name":"airway_label","version":"1.0.0","type":"pkl"},
+        {"name":"airwaynet_tiny","version":"1.0.0","type":"pb"},
+        {"name":"lobenet","version":"1.0.0","type":"pb"},
+        {"name":"nodulenet111","version":"1.0.0","type":"pb"},
+        {"name":"vessel_stage2","version":"1.0.0","type":"pb"},
+        {"name":"airwaynet_stage2","version":"1.0.0","type":"pb"},
+        {"name":"airway_vesselnet_tiny","version":"1.0.0","type":"pb"},
+        {"name":"lungOARsnet","version":"1.0.0","type":"pb"},
+        {"name":"vesselAVnet_tiny","version":"1.0.0","type":"pb"}
+    ],
+    "info":"test"
+}
